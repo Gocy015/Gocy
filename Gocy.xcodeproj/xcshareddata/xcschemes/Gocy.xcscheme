@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_79"
+               BlueprintIdentifier = "OBJ_81"
                BuildableName = "GocyKit.framework"
                BlueprintName = "GocyKit"
                ReferencedContainer = "container:Gocy.xcodeproj">

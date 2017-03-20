@@ -17,7 +17,9 @@ let help = BoolOption(shortFlag: "h", longFlag: "help",
 let launch = BoolOption(shortFlag: "l", longFlag: "launch",
                         helpMessage: "launch all specified applications.")
 
-cli.addOptions(add,remove,launch,help)
+let check = BoolOption(shortFlag: "c", longFlag: "check", helpMessage: "To see current added applications.")
+
+cli.addOptions(add,remove,launch,help,check)
 
 do {
     try cli.parse()
@@ -34,3 +36,13 @@ if let adds = add.value{
 if let removes = remove.value{
     manager.remove(applications: removes)
 }
+
+if check.value{
+    manager.printApplications()
+}
+
+if help.value{
+    cli.printUsage()
+}
+
+manager.save()

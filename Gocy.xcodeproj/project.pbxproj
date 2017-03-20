@@ -24,56 +24,64 @@
 		OBJ_73 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Spectre.framework */; };
 		OBJ_74 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* PathKit.framework */; };
 		OBJ_75 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CommandLineKit.framework */; };
-		OBJ_84 /* GocyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* GocyKit.swift */; };
-		OBJ_86 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Spectre.framework */; };
-		OBJ_87 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* PathKit.framework */; };
-		OBJ_88 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CommandLineKit.framework */; };
+		OBJ_76 /* GocyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* GocyKit.framework */; };
+		OBJ_86 /* GocyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* GocyKit.swift */; };
+		OBJ_88 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Spectre.framework */; };
+		OBJ_89 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* PathKit.framework */; };
+		OBJ_90 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CommandLineKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3C7CAEA1E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CAF91E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_34;
 			remoteInfo = Spectre;
 		};
-		C3C7CAEB1E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CAFA1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_34;
 			remoteInfo = Spectre;
 		};
-		C3C7CAEC1E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CAFB1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_48;
 			remoteInfo = PathKit;
 		};
-		C3C7CAED1E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CAFC1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_57;
 			remoteInfo = CommandLineKit;
 		};
-		C3C7CAEE1E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CAFD1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_81;
+			remoteInfo = GocyKit;
+		};
+		C3C7CAFE1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_34;
 			remoteInfo = Spectre;
 		};
-		C3C7CAEF1E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CAFF1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_48;
 			remoteInfo = PathKit;
 		};
-		C3C7CAF01E7FC9DF000C3BC6 /* PBXContainerItemProxy */ = {
+		C3C7CB001E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -100,7 +108,7 @@
 		OBJ_30 /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_31 /* CommandLineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommandLineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_32 /* Gocy */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gocy; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_33 /* GocyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GocyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_33 /* GocyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GocyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,16 +143,17 @@
 				OBJ_73 /* Spectre.framework in Frameworks */,
 				OBJ_74 /* PathKit.framework in Frameworks */,
 				OBJ_75 /* CommandLineKit.framework in Frameworks */,
+				OBJ_76 /* GocyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_85 /* Frameworks */ = {
+		OBJ_87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_86 /* Spectre.framework in Frameworks */,
-				OBJ_87 /* PathKit.framework in Frameworks */,
-				OBJ_88 /* CommandLineKit.framework in Frameworks */,
+				OBJ_88 /* Spectre.framework in Frameworks */,
+				OBJ_89 /* PathKit.framework in Frameworks */,
+				OBJ_90 /* CommandLineKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,28 +318,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_76 /* PBXTargetDependency */,
 				OBJ_77 /* PBXTargetDependency */,
 				OBJ_78 /* PBXTargetDependency */,
+				OBJ_79 /* PBXTargetDependency */,
+				OBJ_80 /* PBXTargetDependency */,
 			);
 			name = Gocy;
 			productName = Gocy;
 			productReference = OBJ_32 /* Gocy */;
 			productType = "com.apple.product-type.tool";
 		};
-		OBJ_79 /* GocyKit */ = {
+		OBJ_81 /* GocyKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_80 /* Build configuration list for PBXNativeTarget "GocyKit" */;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "GocyKit" */;
 			buildPhases = (
-				OBJ_83 /* Sources */,
-				OBJ_85 /* Frameworks */,
+				OBJ_85 /* Sources */,
+				OBJ_87 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_89 /* PBXTargetDependency */,
-				OBJ_90 /* PBXTargetDependency */,
 				OBJ_91 /* PBXTargetDependency */,
+				OBJ_92 /* PBXTargetDependency */,
+				OBJ_93 /* PBXTargetDependency */,
 			);
 			name = GocyKit;
 			productName = GocyKit;
@@ -361,7 +371,7 @@
 				OBJ_48 /* PathKit */,
 				OBJ_57 /* CommandLineKit */,
 				OBJ_66 /* Gocy */,
-				OBJ_79 /* GocyKit */,
+				OBJ_81 /* GocyKit */,
 			);
 		};
 /* End PBXProject section */
@@ -408,11 +418,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_83 /* Sources */ = {
+		OBJ_85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_84 /* GocyKit.swift in Sources */,
+				OBJ_86 /* GocyKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,37 +432,42 @@
 		OBJ_56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_34 /* Spectre */;
-			targetProxy = C3C7CAEA1E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
-		};
-		OBJ_76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_34 /* Spectre */;
-			targetProxy = C3C7CAEB1E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3C7CAF91E7FD314000C3BC6 /* PBXContainerItemProxy */;
 		};
 		OBJ_77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_48 /* PathKit */;
-			targetProxy = C3C7CAEC1E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
+			target = OBJ_34 /* Spectre */;
+			targetProxy = C3C7CAFA1E7FD314000C3BC6 /* PBXContainerItemProxy */;
 		};
 		OBJ_78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_57 /* CommandLineKit */;
-			targetProxy = C3C7CAED1E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
-		};
-		OBJ_89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_34 /* Spectre */;
-			targetProxy = C3C7CAEE1E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
-		};
-		OBJ_90 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
 			target = OBJ_48 /* PathKit */;
-			targetProxy = C3C7CAEF1E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3C7CAFB1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+		};
+		OBJ_79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_57 /* CommandLineKit */;
+			targetProxy = C3C7CAFC1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+		};
+		OBJ_80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_81 /* GocyKit */;
+			targetProxy = C3C7CAFD1E7FD314000C3BC6 /* PBXContainerItemProxy */;
 		};
 		OBJ_91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = OBJ_34 /* Spectre */;
+			targetProxy = C3C7CAFE1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+		};
+		OBJ_92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_48 /* PathKit */;
+			targetProxy = C3C7CAFF1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+		};
+		OBJ_93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
 			target = OBJ_57 /* CommandLineKit */;
-			targetProxy = C3C7CAF01E7FC9DF000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3C7CB001E7FD314000C3BC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -655,7 +670,7 @@
 			};
 			name = Release;
 		};
-		OBJ_81 /* Debug */ = {
+		OBJ_83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -675,7 +690,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_82 /* Release */ = {
+		OBJ_84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -743,11 +758,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_80 /* Build configuration list for PBXNativeTarget "GocyKit" */ = {
+		OBJ_82 /* Build configuration list for PBXNativeTarget "GocyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_81 /* Debug */,
-				OBJ_82 /* Release */,
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

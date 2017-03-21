@@ -32,56 +32,56 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3C7CAF91E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE781E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_34;
 			remoteInfo = Spectre;
 		};
-		C3C7CAFA1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE791E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_34;
 			remoteInfo = Spectre;
 		};
-		C3C7CAFB1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE7A1E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_48;
 			remoteInfo = PathKit;
 		};
-		C3C7CAFC1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE7B1E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_57;
 			remoteInfo = CommandLineKit;
 		};
-		C3C7CAFD1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE7C1E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_81;
 			remoteInfo = GocyKit;
 		};
-		C3C7CAFE1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE7D1E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_34;
 			remoteInfo = Spectre;
 		};
-		C3C7CAFF1E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE7E1E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_48;
 			remoteInfo = PathKit;
 		};
-		C3C7CB001E7FD314000C3BC6 /* PBXContainerItemProxy */ = {
+		C3E4FE7F1E81057C0062AF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -432,42 +432,42 @@
 		OBJ_56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_34 /* Spectre */;
-			targetProxy = C3C7CAF91E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE781E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_34 /* Spectre */;
-			targetProxy = C3C7CAFA1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE791E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_48 /* PathKit */;
-			targetProxy = C3C7CAFB1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE7A1E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_57 /* CommandLineKit */;
-			targetProxy = C3C7CAFC1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE7B1E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_81 /* GocyKit */;
-			targetProxy = C3C7CAFD1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE7C1E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_34 /* Spectre */;
-			targetProxy = C3C7CAFE1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE7D1E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_48 /* PathKit */;
-			targetProxy = C3C7CAFF1E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE7E1E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 		OBJ_93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_57 /* CommandLineKit */;
-			targetProxy = C3C7CB001E7FD314000C3BC6 /* PBXContainerItemProxy */;
+			targetProxy = C3E4FE7F1E81057C0062AF86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

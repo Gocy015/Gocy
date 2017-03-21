@@ -11,6 +11,9 @@ let add = MultiStringOption(shortFlag: "a", longFlag: "add",
 let remove = MultiStringOption(shortFlag: "r", longFlag: "remove",
                        helpMessage: "remove an existing application.")
 
+let removeall = BoolOption(longFlag: "removeall",
+                               helpMessage: "remove all existing applications.")
+
 let help = BoolOption(shortFlag: "h", longFlag: "help",
                       helpMessage: "Prints a help message.")
 
@@ -19,7 +22,7 @@ let launch = BoolOption(shortFlag: "l", longFlag: "launch",
 
 let check = BoolOption(shortFlag: "c", longFlag: "check", helpMessage: "To see current added applications.")
 
-cli.addOptions(add,remove,launch,help,check)
+cli.addOptions(add,remove,launch,help,check,removeall)
 
 do {
     try cli.parse()
@@ -45,4 +48,13 @@ if help.value{
     cli.printUsage()
 }
 
+if removeall.value{
+    print("remove all")
+    manager.removeAll()
+}
+
 manager.save()
+
+if launch.value{
+    manager.launch()
+}

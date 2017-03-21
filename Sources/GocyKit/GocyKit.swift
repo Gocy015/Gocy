@@ -41,7 +41,8 @@ public struct GocyLaunchManager{
         var apps = [String]()
         
         for appUrl in installedApps {
-            let app = Path(appUrl.absoluteString).lastComponentWithoutExtension.lowercased()
+            let app = Path(appUrl.absoluteString).lastComponentWithoutExtension.removingPercentEncoding!.lowercased()
+            
             apps.append(app)
         }
         return apps
